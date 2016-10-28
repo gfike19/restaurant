@@ -6,7 +6,7 @@ public class Post {
 	private String title;
 	private String author;
 	private Date created;
-	private ArrayList <Date> dt_mod = new ArrayList();
+	private ArrayList <Date> dt_mod = new ArrayList<Date>();
 	
 	public Post (String body, String title, String author, Date dt) {
 		this.setBody(body);
